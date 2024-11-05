@@ -1,188 +1,656 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Mulki Muhammad Ikhsan</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Guglielmo Cerri - Data Scientist and Bioinformatician. Explore my expertise in data science and bioinformatics.">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>CV-Mulki Muhammad Ikhsan</title>
+    <meta name="keywords" content="data scientist, bioinformatician, data science, bioinformatics, Guglielmo Cerri">
+    <meta name="author" content="Guglielmo Cerri">
+    <meta name="robots" content="index, follow">
+    <meta name="google-site-verification" content="KYe6GsSYjjdW_70JlJh1PmUMcjtCYCgVxAILWMEkWSw" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
+
 <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Mulki Muhammad Ikhsan</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualifications" class="nav__link">
+                            <i class="uil uil-graduation-cap nav__icon"></i> Qualifications
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#expertise" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Expertise
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#articles" class="nav__link">
+                            <i class="uil uil-book-open nav__icon"></i> Articles
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class="uil uil-estate nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            
+            <div class="nav__btns">
+                <!--Theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
 
-    <div class="main-container">
-        <div class="top-sec">
-            <div class="user-sec">
-                <div class="yellow-bar">
-                    <div class="user-circle">
-                        <div class="under-yellow">
-                            <img src="images/user.png" alt=""/>
-                        </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home"> 
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/mulki-muhammad-ikhsan-b11002270//" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="https://stackoverflow.com/users/12829151/will" target="_blank" class="home__social-icon">
+                            <i class="fa fa-stack-overflow"></i>
+                        </a>
+                        <a href="https://github.com/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://medium.com/@cerriguglielmo" target="_blank" class="home__social-icon">
+                            <i class="uil uil-medium-m"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+            130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+            97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+            0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+            165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+            129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+            -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/profil.png" />
+                            </g>
+                        </svg>
+
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title"> Mulki Muhammad Ikhsan</h1>
+                        <h3 class="home__subtitle">DESAIN GRAFIS DAN KERJA TIM</h3>
+                        <p class="home__description">keahlian dalam desain grafis dan kerja tim. Pembuatan materi visual, dengan pengalaman mengerjakan proyek desain pribadi dan tugas sekolah. Terbiasa bekerja dalam tim selama studi, memiliki kemampuan komunikasi yang baik, dan mampu berkolaborasi untuk mencapai tujuan bersama secara efektif.. </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down homw__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title"> About Me</h2>
+            <span class="section__subtitle">My introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/mulki.png" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Saya pelajar SMK Pembangunan Jaya Yakapi, jurusan PPLG, dengan minat di bidang desain grafis. Aktif mengerjakan proyek desain selama studi dan terbiasa bekerja dalam tim. Saya berkomitmen untuk mengembangkan keterampilan dalam menciptakan solusi visual yang kreatif dan efektif.
+                    </p>
+                    <ul>
+                        <li>Birtday: 13 December 2006</li>
+                        <li>No Telp: 087734280499</li>
+                        <li>Asal   : Garut,Indonesia</li>
+                        <li>Emai   : mulkiikhsan226@mail.com </li>
+                    </ul>
+                    <div class="about__buttons">
+                        <a download="" href="file:///C:/Users/USER/Downloads/CV_Mulki.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
                     </div>
                 </div>
             </div>
 
-            <div class="user-name">
-                <h1>Mulki Muhammad Ikhsan</h1>
-                <p>SMK Pembangunan Jaya Yakapi</p>
-                <div class="icon-sec">
-                    <a href="https://www.linkedin.com/in/mulki-muhammad-ikhsan-b11002270/" class="detail">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                    </a>
-                    <a href="https://www.youtube.com/@Mulkikelazz" class="detail">
-                        <i class="fa fa-youtube-play" aria-hidden="true"></i>  
-                    </a>
-                    <a href="https://x.com/Mulkyyy13" class="detail">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>  
-                    </a>
-                </div>
-            </div>
+        </section>
 
-        </div>
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My technical level</span>
 
-        <div class="bottom-sec">
-            <div class="bottom-left">
-                <div class="b-l-sec">
-                    <div class="b-l-card">
-                        <div class="heading">
-                            <h3>Contact</h3>
-                        </div>
-                        <div class="b-l-detail">
-                            <a href="#" class="detail">
-                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                Jalan Tanjung Barat Gg. 100 RT/RW  08/01 No. 46
-                            </a>
-                            <a href="#" class="detail">
-                                <i class="fa fa-phone" aria-hidden="true"></i>
-                                +62877 3428 0499
-                            </a>
-                            <a href="#" class="detail">
-                                <i class="fa fa-envelope" aria-hidden="true"></i>
-                                mulkiikhsan226@gmail.com
-                            </a>
-                            <a href="https://www.instagram.com/mulki377/" class="detail">
-                                <i class="fa fa-instagram" aria-hidden="true"></i> 
-                                    mulki377
-                            </a>
-                            
-                        </div>
-                    </div>
+            <div class="skills__container container grid">
+                <div>
+                    <!--====================== SKILLS 1 =============================-->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-code-branch skills__icon"></i>
 
-                    <div class="b-l-card">
-                        <div class="heading">
-                            <h3>Skill</h3>
-                        </div>
-                        <div class="b-l-detail">
                             <div>
-                           <h4>Kerja Tim</h4>
-                           <div class="progress p-01">
-                              <hr/>
-                           </div>
-                           </div>
-                           <div>
-                           <h4>Manajemen Waktu</h4>
-                           <div class="progress p-02">
-                              <hr/>
-                           </div>
+                                <h1 class="skills__title">DESAIN GRAFIS</h1>
+                                <span class="skills__subtitle">Menggunakan Aplikasi</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
                         </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Canva</h3>
+                                    <div class="skills__number">50%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__python"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Adobe Illustrator</h3>
+                                    <div class="skills__number">40%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__java"></div>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Adobe Photoshop</h3>
+                                    <div class="skills__number">20%</div>
+                                </div>
+                                <div class="skills__bar">
+                                    <div class="skills__percentage skills__r"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--====================== SKILLS 2 =============================-->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-atom skills__icon"></i>
+
                         <div>
-                           <h4>Desain</h4>
-                           <div class="progress p-03">
-                              <hr/>
-                           </div>
+                            <h1 class="skills__title">PEMOGRAMAN</h1>
+                            <span class="skills__subtitle">Aplikasi Yang DIgunakan</span>
                         </div>
+
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CODULAR</h3>
+                                <div class="skills__number">50%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__docker"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">VISUAL STUDIO</h3>
+                                <div class="skills__number">50%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__kubernetes"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">ANDROID STUDIO</h3>
+                                <div class="skills__number">40%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__git"></div>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CONSTRUCK</h3>
+                                <div class="skills__number">30%</div>
+                            </div>
+                            <div class="skills__bar">
+                                <div class="skills__percentage skills__reactnative"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualifications">
+            <h2 class="section__title">Qualifications</h2>
+            <div class="section__subtitle">My personal journey</div>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        PKL
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--===============================QUALIFICATION CONTENT 1 ===========================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">JURUSAN PENGEMBANGAN PERANGKAT LUNAK DAN GIM</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.smkpj-yakapi.sch.id/" target="_blank">SMK PEMBANGUNAN JAYA-YAKAPI</a>
+                                        <br>
+                                        <h5>06/11/2024</h5>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2022 - 2025
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">SEKOLAH MENENGAH PERTENGAHAN</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://www.smpn239jakarta.sch.id/index.php?id=berita&kode=20" target="_blank">SMPN 239 Jakarta</a>
+                                        <br>
+                                        <h5>06/11/2024</h5>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019 - 2022
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--===============================QUALIFICATION CONTENT 2 ===========================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--===============================QUALIFICATION 1 ===========================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">PRAKTIK KERJA LAPANGAN</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://agunasatyamulya.com/" target="_blank">PT. Aguna Satya Mulya</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    JANUARI  - APRIL
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!--===============================QUALIFICATION 2 ===========================-->
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">PRAKTIK KERJA LAPANGAN</h3>
+                                <span class="qualification__subtitle">
+                                    <a href="https://jakselkota.bps.go.id/id" target="_blank">Badan Pusat Stastistik Jakarta Selatan</a>
+                                </span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Juni - AGUSTUS 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Expertise ====================-->
+        <section class="expertise section" id="expertise">
+            <h2 class="section__title">KEAHLIAN</h2>
+            <span class="section__subtitle">Desain dan Kerja Tim</span>
+
+            <div class="Expertise__container container grid">
+                <!--===================== Expertise 1 ====================-->
+                <div class="Expertise__content">
+                    <div>
+                        <i class="uil uil-chart-line Expertise__icon"></i>
+                        <h3 class="Expertise__title">Komposisi Visual</h3>
+                        <span class="button button--flex button--small button--link Expertise__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="Expertise__modal">
+                            <div class="Expertise__modal-content">
+                                <h3 class="Expertise__modal-title">Komposisi Visual</h3>
+                                <i class="uil uil-times Expertise__modal-close"></i>
+                                
+                                <ul class="Expertise__modal-expertise grid">
+                                    <li class="Expertise__modal-service">
+                                        <i class="uil uil-check-circle Expertise__modal-icon"></i>
+                                        <p>Kemampuan menyusun elemen-elemen visuak seperti gambar,teks dan warna secara seimbang dan harmonis dalam sebuah tata letak.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--===================== Expertise 2 ====================-->
+                <div class="Expertise__content">
+                    <div>
+                        <i class="uil uil-brain Expertise__icon"></i>
+                        <h3 class="Expertise__title">Tipografi</h3>
+
+                        <span class="button button--flex button--small button--link Expertise__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="Expertise__modal">
+                            <div class="Expertise__modal-content">
+                                <h4 class="Expertise__modal-title">Tipografi</h4>
+                                <i class="uil uil-times Expertise__modal-close"></i>
+
+                                <ul class="Expertise__modal-expertise grid">
+                                    <li class="Expertise__modal-service">
+                                        <i class="uil uil-check-circle Expertise__modal-icon"></i>
+                                        <p>Memahami penggunaan font,ukran teks,jarak antar huruf,dan tata letak teks yang dapat meningkatkan daya tarik visual dan keterbacaan.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--===================== Expertise 3 ====================-->
+                <div class="Expertise__content">
+                    <div>
+                        <i class="uil uil-robot Expertise__icon"></i>
+                        <h3 class="Expertise__title">Kolaboratif</h3>
+
+                        <span class="button button--flex button--small button--link Expertise__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="Expertise__modal">
+                            <div class="Expertise__modal-content">
+                                <h4 class="Expertise__modal-title">Kolaboratif</h4>
+                                <i class="uil uil-times Expertise__modal-close"></i>
+
+                                <ul class="Expertise__modal-expertise grid">
+                                    <li class="Expertise__modal-service">
+                                        <i class="uil uil-check-circle Expertise__modal-icon"></i>
+                                        <p>Terbiasa bekerja secara kolaboratif untuk mencapai tujuan bersama dengan anggota tim yang memiliki berbagai latar belakang.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--===================== Expertise 4 ====================-->
+                <div class="Expertise__content">
+                    <div>
+                        <i class="uil uil-web-grid Expertise__icon"></i>
+                        <h3 class="Expertise__title">Adaptif</h3>
+
+                        <span class="button button--flex button--small button--link Expertise__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="Expertise__modal">
+                            <div class="Expertise__modal-content">
+                                <h4 class="Expertise__modal-title">Adaptif</h4>
+                                <i class="uil uil-times Expertise__modal-close"></i>
+
+                                <ul class="Expertise__modal-expertise grid">
+                                    <li class="Expertise__modal-service">
+                                        <i class="uil uil-check-circle Expertise__modal-icon"></i>
+                                        <p>ampu beradaptasi dengan berbagai dinamika tim dan siap menghadapi tantangan baru untuk mencapai tujuan bersama.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--===================== Expertise 5 ====================-->
+                <div class="Expertise__content">
+                    <div>
+                        <i class="uil uil-dna Expertise__icon"></i>
+                        <h3 class="Expertise__title">Kreativitas Dan Pemecahan Masalah</h3>
+
+                        <span class="button button--flex button--small button--link Expertise__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="Expertise__modal">
+                            <div class="Expertise__modal-content">
+                                <h4 class="Expertise__modal-title">Kreativitas Dan Pemecahan Masalah</h4>
+                                <i class="uil uil-times Expertise__modal-close"></i>
+
+                                <ul class="Expertise__modal-expertise grid">
+                                    <li class="Expertise__modal-service">
+                                        <i class="uil uil-check-circle Expertise__modal-icon"></i>
+                                        <p>Kemampuan untuk menghasilkan ide-ide segar,inovatif,dan memecahkan tantangan desain dengan sulusi visual yang kreatif.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-telegram-alt contact__icon"></i>
+
                         <div>
-                           <h4>FIGMA</h4>
-                           <div class="progress p-04">
-                              <hr/>
-                           </div>
-                           </div>
+                            <h3 class="contact__title">INSTAGRAM</h3>
+                            <span class="contact__subtitle">@mulki377</span>
                         </div>
                     </div>
 
-                    <div class="b-l-card">
-                        <div class="heading">
-                            <h3>Hobbies</h3>
-                        </div>
-                        <div class="b-l-detail">
-                            <a href="#" class="detail">
-                                <i class="fa fa-book" aria-hidden="true"></i>
-                                Reading Books
-                            </a>
-                            <a href="#" class="detail">
-                                <i class="fa fa-plane" aria-hidden="true"></i>
-                                Treavling
-                            </a>
-                            <a href="#" class="detail">
-                                <i class="fa fa-video-camera" aria-hidden="true"></i>
-                                Movies
-                            </a>
-                            
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"><my class="online shop new"></my>mulkiikhsan226@gmail.com</span>
                         </div>
                     </div>
 
-                </div>
-            </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
 
-           <div class="bottom-right">
-            <div class="r-b-sec">
-                <div class="heading r-heading">
-                    <h3>
-                        <i class="fa fa-user" aria-hidden="true"></i>
-                        Profile</h3>
-                </div>
-                <div class="r-b-detail">
-                    <p>Saya seorang pelajar di SMK Pembangunan Jaya Yakapi, jurusan PPLG (Pengembangan Perangkat Lunak dan Gim). Dengan minat besar di bidang teknologi dan informasi, saya memiliki pengalaman PKL dalam pengembangan website. Saya berkomitmen untuk mengembangkan keterampilan dalam menciptakan solusi digital yang inovatif dan siap menghadapi tantangan baru di dunia teknologi.</p>
-                    
-                </div>
-            </div>
-
-            <div class="r-b-sec">
-                <div class="heading r-heading">
-                    <h3>
-                        <i class="fa fa-certificate" aria-hidden="true"></i>
-                        Pengalaman PKL Priode 1</h3>
-                </div>
-                <div class="r-b-detail">
-                   <div class="university">
-                    <div class="dot"></div>
-                    <div class="uni-detail">
-                        <h4>PT. Aguna Satya Mulya</h4>
-                        <p>Saya melakukan praktek kerja lapangan di PT Aguna Satya Mulya, di mana saya terlibat dalam proyek pengembangan web. Dalam proyek tersebut, saya bertanggung jawab untuk merancang dan mengimplementasikan fitur-fitur pada situs web, serta berkolaborasi dengan tim untuk memastikan keberhasilan proyek.</p>
-                       
+                        <div>
+                            <h3 class="contact__title">LOKASI</h3>
+                            <span class="contact__subtitle">Jakarta,Indonesia</span>
+                        </div>
                     </div>
-                   </div>
-                    
-                  
+                        
+                    <form action="https://formspree.io/f/xbjwkqok" method="POST" class="contact__form grid" id="submit_form">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="name" class="contact__label">Name</label>
+                                <input type="text" id="name" name="name" class="contact__input" required>
+                            </div>
 
+                            <div class="contact__content">
+                                <label for="email" class="contact__label" placeholder="email@example.com">Email</label>
+                                <input type="email" id="email" name="email" class="contact__input" required>
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="project-contact" class="contact__label">Subject</label>
+                            <input type="text" id="project-contact" name="project" class="contact__input" required>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="message-contact" class="contact__label">Message</label>
+                            <textarea name="message" cols="0" rows="7" id="message-contact"
+                                class="contact__input" required></textarea>
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="6Ldv3yMpAAAAAJBnsyuM_we1OQjiUtK-dUEW5Kdu"></div>
+
+                        <div style="text-align: center;">
+                            <button class="button button--flex" id="check">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
+        </section>
 
-            <div class="r-b-sec">
-                <div class="heading r-heading">
-                    <h3>
-                        <i class="fa fa-briefcase" aria-hidden="true"></i>
-                        Pengalaman PKL Priode 2</h3>
+    </main>
+    
+    <!--==================== FOOTER ====================-->
+    <footer class="footer" id="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div style="display: flex; flex-direction: column; align-items: center;">
+                    <h2 class="footer__title">Mulki Muhammad Ikhsan</h2>
+                    <span class="footer__subtitle">Desain Grafis Dan Editing</span>
                 </div>
-                <div class="r-b-detail">
-                    <div class="university">
-                        <div class="dot"></div>
-                        <div class="uni-detail">
-                            <h4>BPS Jakarta Selatan (Badan Pusat Statistik)</h4>
-                            <p>Saya melakukan praktek kerja lapangan di BPS Jakarta Selatan (Badan Pusat Statistik), di mana saya membantu karyawan kantor dalam pengolahan data dan administrasi. </p>
-                            
-                        </div>
-                       </div>
 
-                      
-                        </div>
-                       </div>
-                </div>
+                <ul class="footer__links" style="align-self: center;">
+                    <li>
+                        <a href="#expertise" class="footer__link">Expertise</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
             </div>
-           </div>
 
+            <p class="footer__copy" style="margin-top: 10px;">&#169; . Mulki cuyylindungi Negara.</p>
         </div>
+    </footer>
 
-    </div>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scroll__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
 
 </body>
+
+</html>
+
+</body>
+
 </html>
